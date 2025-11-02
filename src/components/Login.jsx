@@ -36,9 +36,9 @@ import { useNavigate } from 'react-router-dom';
         <input type="password" id="password" placeholder="Enter your password" 
         onChange={(e) => setPassword(e.target.value)}/>
         {error && <p className="error-text">{error}</p>}
-        <a href="#" className="forgot-password">
+        <button className="forgot-password">
           Forgot Password
-        </a>
+        </button>
 
         <button type="submit" className="login-btn"
         >Log In</button>
@@ -46,14 +46,15 @@ import { useNavigate } from 'react-router-dom';
 
       <p className="signup-text">
         Don’t have an account? <br />
-        <a href="#" className="signup-link" 
+        <button className="signup-link" 
         onClick={()=>navigate("/Sign up for free")}
-        >Sign up</a>
+        >Sign up</button>
       </p>
     </div>
   );
 }
 export default Login;
+
 
 
 
