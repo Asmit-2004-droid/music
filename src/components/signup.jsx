@@ -24,11 +24,12 @@ import { useNavigate } from 'react-router-dom';
       </button>
       <p className="login-text">
         Already have an account ?<br /><br/>
-        <a href="#" className="login-link"
+        <button className="login-link"
         onClick={()=>navigate("/Log in")}>
-        Log in</a>
+        Log in</button>
       </p>
     </div>
   );
 }
 export default Signup;
+
