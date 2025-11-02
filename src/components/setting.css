@@ -1,0 +1,57 @@
+.settings-container {
+  background-color: #2b2b2b;
+  color: #fff;
+  height: 445px;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.settings-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings-header h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.close-icon {
+  cursor: pointer;
+}
+
+.settings-section {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.settings-item h3 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.settings-item p {
+  margin-top: 1px;
+  color: #aaa;
+  font-size: 13px;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.back-button:hover {
+  opacity: 0.7;
+}

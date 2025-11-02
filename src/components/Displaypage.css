@@ -1,0 +1,92 @@
+.display-container{
+  height: 486px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #7b2ff7, #321966);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.musiclogo{
+    align-items: center;
+    text-align: center;
+    margin-top:150px;
+    font-size: 50px;
+    color: #000000;
+}
+.text{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+    width:50%;
+    margin: auto;
+}
+.btn1{
+    text-align: center;
+    background-color: #2bff00;
+    color: rgb(3, 3, 3);
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+.btn1:hover{
+    transform: translateY(-3px);
+}
+.btn2{
+    text-align: center;
+    color: rgb(3, 3, 3);
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+.btn2:hover{
+    transform: translateY(-3px);
+}
+
+/* Mobile Portrait (max-width: 480px) */
+@media (max-width: 480px) {
+  .display-container {
+    padding: 15px;
+    height:640px
+  }
+
+  .musiclogo {
+    font-size: 50px;
+    margin-top: 80px;
+  }
+
+  .text {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .btn {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn1,
+  .btn2 {
+    width: 100%;
+    margin: 8px 0;
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}

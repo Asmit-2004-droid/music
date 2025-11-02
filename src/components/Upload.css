@@ -1,0 +1,103 @@
+/* Background */
+.upload-page {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(180deg, #7933ff, #2d0b84);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Form Box */
+.upload-box {
+  width: 420px;
+  padding: 10px 30px;
+  text-align: left;
+  color: white;
+}
+
+/* Heading */
+.upload-box h2 {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* Sub text */
+.upload-box .subtitle {
+  font-size: 13px;
+  color: #d6d6d6;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* Labels */
+.upload-box label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  display: block;
+}
+
+/* Input Fields */
+.upload-box input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.18);
+  color: white;
+  font-size: 14px;
+  outline: none;
+  margin-bottom: 6px;
+}
+
+/* Hint text under input */
+.upload-box .input-hint {
+  font-size: 11px;
+  color: #e1e1e1;
+  margin-bottom: 10px;
+}
+
+/* Upload Section */
+.upload-area {
+  margin-top: 8px;
+  background: rgba(255,255,255,0.28);
+  border-radius: 10px;
+  padding: 25px;
+  border: 2px dashed rgba(255,255,255,0.8);
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.upload-area:hover {
+  background: rgba(255,255,255,0.38);
+}
+
+.upload-area p {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #f9f9f9;
+}
+
+/* Submit Button */
+.submit-btn {
+  width: 100%;
+  margin-top: 18px;
+  background: #32d21e;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.submit-btn:hover {
+  background: #27b91a;
+}
